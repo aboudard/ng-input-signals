@@ -1,0 +1,14 @@
+<p>content : {{email()}} / 
+@if (authorized()) {
+    <span>authorized</span>
+}
+@else {
+    <span>not authorized</span>
+}
+<span> -- ({{other()}})</span>
+
+***  
+<span class="regular">
+{{rEmail}} / {{right$ | async}} / {{rRight$ | async}}
+</span>
+</p>
